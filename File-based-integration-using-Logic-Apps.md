@@ -9,14 +9,15 @@ In following articles, we would showcase a sample Azure Logic App that orchestra
 
 Inbound flow: File originates from OneDrive and sent to Dynamics 365 for Operations
 
-<image to be uploaded>
+![Inbound Image](https://user-images.githubusercontent.com/22554479/27503704-c65cc106-5833-11e7-9484-08bd3aa31e3b.png)
 
 Outbound flow: File originates from Dynamics 365 for Operations and sent to OneDrive
 
-<image to be uploaded>
+![Outbound Image](https://user-images.githubusercontent.com/22554479/27503676-3b4bf5aa-5833-11e7-89c7-1e3a362cc240.png)
+
 
 ### Inbound Flow
-1.	As soon as a file is added in OneDrive folder ‘Input’, the logic app gets triggered. 
+1.      As soon as a file is added in OneDrive folder ‘Input’, the logic app gets triggered. 
 2.	The file is then moved to ‘Processing’
 3.	The Dynamics 365 Operations connector is used to invoke ‘DataManagementDefinitionGroups/GetAzureUrl’ action.
 	* This action is invoked to request Dynamics 365 for Operations for an writable blob url to a container within default Azure blob storage (Microsoft Subscription)
