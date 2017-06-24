@@ -16,7 +16,7 @@ Outbound flow: File originates from Dynamics 365 for Operations and sent to OneD
 ![Outbound Image](https://user-images.githubusercontent.com/22554479/27503676-3b4bf5aa-5833-11e7-89c7-1e3a362cc240.png)
 
 
-###Inbound Flow
+### Inbound Flow
 1.	As soon as a file is added in OneDrive folder ‘Input’, the logic app gets triggered. 
 2.	The file is then moved to ‘Processing’
 3.	The Dynamics 365 Operations connector is used to invoke ‘DataManagementDefinitionGroups/GetAzureUrl’ action.
