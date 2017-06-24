@@ -1,4 +1,5 @@
-1.	Click the ‘Deploy to Azure’ button corresponding to the logic app that you want to deploy and follow on screen instructions to deploy the templates to your azure subscription.
+1.	Click the ‘Deploy to Azure’ button corresponding to the logic app that you want to deploy and follow on screen instructions to deploy the templates to your azure subscription. 
+These buttons are located in repository home page. https://github.com/Microsoft/Dynamics-AX-Integration
 
       ![image](https://user-images.githubusercontent.com/22554479/27505678-c4568c9e-585a-11e7-818f-d13181a48854.png)
 
