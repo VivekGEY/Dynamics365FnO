@@ -19,7 +19,7 @@ Outbound flow: File originates from Dynamics 365 for Operations and sent to OneD
 ### Inbound Flow
 1.	As soon as a file is added in OneDrive folder ‘Input’, the logic app gets triggered. 
 2.	The file is then moved to ‘Processing’
-3.	The Dynamics 365 Operations connector is used to invoke ‘DataManagementDefinitionGroups/GetAzureUrl’ action.
+3.	The Dynamics 365 Operations connector is used to invoke ‘DataManagementDefinitionGroups/GetAzureWriteUrl’ action.
 	* This action is invoked to request Dynamics 365 for Operations for an writable blob url to a container within default Azure blob storage (Microsoft Subscription)
 	* This returns a BlobID and BlobUrl from AX. 
 	* The BlobUrl denotes the location where data packages should be uploaded
