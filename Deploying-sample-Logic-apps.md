@@ -3,6 +3,8 @@ These buttons are located in repository home page. https://github.com/Microsoft/
 
       ![image](https://user-images.githubusercontent.com/22554479/27505678-c4568c9e-585a-11e7-818f-d13181a48854.png)
 
+       Note that each template requires the URL to your Dynamics 365 for Operations environment (the parameter name is D365FOURL). DO NOT include "https://" in the URL.
+
 2.	Once deployed, navigate to portal.azure.com and find the deployed app under Logic App resources
 
       ![image](https://user-images.githubusercontent.com/22554479/27505686-eb3a6542-585a-11e7-9343-d4a931d062bc.png)
@@ -14,5 +16,7 @@ These buttons are located in repository home page. https://github.com/Microsoft/
 4.	Select each of the connections, click on the banner ‘This connection is not authenticated’ and follow on screen instructions to authorize the logic app to connect to these resources
  
       ![image](https://user-images.githubusercontent.com/22554479/27505703-14b292a0-585b-11e7-92f7-f13357ea8362.png)
+
+5.      Open the Logic App Editor and click Save to refresh the API containers.
 
 Once done the deployment is complete
