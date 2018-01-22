@@ -3,7 +3,11 @@ These buttons are located in repository home page. https://github.com/Microsoft/
 
       ![image](https://user-images.githubusercontent.com/22554479/27505678-c4568c9e-585a-11e7-818f-d13181a48854.png)
 
-       Note that each template requires the URL to your Dynamics 365 for Operations environment (the parameter name is D365FOURL). DO NOT include "https://" in the URL.
+       Notes:
+      * Each template requires a parameter URL to your Dynamics 365 for Operations environment. DO NOT include "https://" in the URL.
+      * For OneDrive location, specify the root and path (URL is not required). For example, a folder named MyFiles in the OneDrive root is /MyFiles.
+      * An Export Data Project must be created in Data Management and specified when deploying the D365 to OneDrive Template.
+      * An Import Data Project is created automatically when the OneDrive to D365 Logic App is run.
 
 2.	Once deployed, navigate to portal.azure.com and find the deployed app under Logic App resources
 
@@ -17,6 +21,4 @@ These buttons are located in repository home page. https://github.com/Microsoft/
  
       ![image](https://user-images.githubusercontent.com/22554479/27505703-14b292a0-585b-11e7-92f7-f13357ea8362.png)
 
-5.      Open the Logic App Editor and click Save to refresh the API containers.
-
-Once done the deployment is complete
+5. Open the Logic App Designer and click Save to refresh the source container API connections.
