@@ -22,3 +22,8 @@ These buttons are located in repository home page. https://github.com/Microsoft/
       ![image](https://user-images.githubusercontent.com/22554479/27505703-14b292a0-585b-11e7-92f7-f13357ea8362.png)
 
 5. Open the Logic App Designer and click Save to refresh the source container API connections.
+
+Notes:
+* The OneDrive to D365 Logic App requires a OneDrive folder containing the following 5 sub-folders named as follows: Error, Exception, Input, Processing, Success. Validate these folders in the Logic App Designer and adjust if necessary.
+* The Package File that you import must have the Target Legal Entity as part of the package file name prefix, followed by underscore. Example: USMF_DemoCustomers.Zip
+
